@@ -6,7 +6,7 @@ const app = express();
 // all environments
 app.set("port", process.env.PORT || 3000);
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("Hello World!");
 });
 
